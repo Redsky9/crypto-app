@@ -1,0 +1,31 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.default>div>ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.default-item {
+  margin: 0 5px 0 5px;
+}
+
+i {
+  margin: 0 5px 0 2px;
+}
+
+.fa-arrow-up {
+  color: green;
+  font-size: 16px;
+}
+
+.fa-arrow-down {
+  color: red;
+  font-size: 16px;
+}
+
+thead>tr>th, tbody>tr>td {
+  text-align: center;
+}
